@@ -178,15 +178,10 @@ export default function Hero() {
                         <div className="">
                             <div className="relative shadow-xl rounded-b-3xl sm:overflow-hidden">
                                 <div className="absolute inset-0">
-                                    <video
-                                        autoPlay="true"
-                                        loop
-                                        muted="true"
-                                        type="video/mp4"
-                                        className="h-full w-full object-cover"
-                                        src="./video2.mp4">
-
+                                    <video autoplay="autoplay" loop="loop" className="h-full w-full object-cover" muted defaultMuted playsinline oncontextmenu="return false;" preload="auto" id="myVideo">
+                                        <source src="./video2.mp4" type="video/mp4" />
                                     </video>
+
                                     <div className="absolute inset-0 " />
                                 </div>
                                 <div className="relative px-4 py-44 sm:px-6 sm:py-36 lg:py-44 font-display">

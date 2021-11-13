@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Cub2 from './Components/Cub2';
+import Cube from './Components/Cube';
+import Footer from './Components/Footer';
+import Hero from './Components/Hero';
+import ListaJuegos from './Components/ListaJuegos';
+import Pricing from './Components/Pricing';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Hero></Hero>
+      <Cub2></Cub2>
+      <ListaJuegos></ListaJuegos>
+      <Cube></Cube>
+      <Pricing></Pricing>
+      <Footer></Footer>
     </div>
   );
 }

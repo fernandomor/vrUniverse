@@ -13,7 +13,7 @@ function App() {
       <Cub2></Cub2>
       <ListaJuegos></ListaJuegos>
       <Cube></Cube>
-      <Pricing></Pricing>
+      {/* <Pricing></Pricing> */}
       <Footer></Footer>
     </div>
   );

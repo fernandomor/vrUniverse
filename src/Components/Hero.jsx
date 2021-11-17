@@ -179,7 +179,7 @@ export default function Hero() {
                             <div className="relative shadow-xl rounded-b-3xl sm:overflow-hidden">
                                 <div className="absolute inset-0">
                                     <video autoplay="autoplay" loop="loop" className="h-full w-full object-cover" muted defaultMuted playsinline oncontextmenu="return false;" preload="auto" id="myVideo">
-                                        <source src="./video2.mp4" type="video/mp4" />
+                                        <source src="./cover.mp4" type="video/mp4" />
                                     </video>
 
                                     <div className="absolute inset-0 " />
